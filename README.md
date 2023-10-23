@@ -1,4 +1,4 @@
-# neuronal-replacement
+# Obj
 The objective of this project is to investigate the impact of node replacement on the performance and behavior of a simple neural network. Specifically, I aim to understand how replacing nodes affects the network's accuracy and identify any patterns in how different types of nodes influence these changes. Additionally, I seek to explore whether these alterations lead to a change in the 'identity' of the network, as defined by its functions and behavior.
 
 # Inspiration
