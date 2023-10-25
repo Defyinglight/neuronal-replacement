@@ -37,3 +37,9 @@ layer_to_modify.set_weights([weights, biases])
 baseline_model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 baseline_model.fit(X_train, y_train, epochs=10)
 new_score = baseline_model.evaluate(X_test, y_test)
+
+baseline_model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+
+baseline_model.fit(X_train, y_train, epochs=5)
+
+new_score = baseline_model.evaluate(X_test, y_test)
